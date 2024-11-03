@@ -1,0 +1,171 @@
+#font {
+    letter-spacing: 1px;
+    font-size: 50px;
+    color: white;
+    /* background-color: rgb(105, 86, 123); */
+    background-color: rgb(222, 40, 195);
+    padding: 15px;
+    /* width: max-content; */
+    display: flex;
+    justify-content: center;
+
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* background-image: url(./download.png);
+    border-radius: 50%; */
+
+    position: relative;
+    top: 0;
+    right: 0;
+
+}
+
+
+img {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* .h-i{
+    display: flex;
+} */
+p {
+    color: whitesmoke;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(160deg, rgb(194, 122, 122)20%, rgb(136, 144, 199) 60.9%, rgb(250, 224, 139) 80%);
+    /* background-color: linear-gradient(175deg,rgb(94, 89, 89)-16.9%,rgb(80, 50, 56)119.9%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#htmlMain {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+}
+
+/* #quizDiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+} */
+#ck {
+    background-color: rgb(106, 103, 103);
+}
+
+.qDiv {
+    background-color: transparent;
+    padding: 20px 30px;
+    border-radius: 10px;
+    /* margin-top: -60px; */
+    /* box-shadow:inset 10px -10px 10px pink; */
+    /* filter: drop-shadow(2px 3px 4px red); */
+
+}
+
+.answers {
+    background-color: rgb(245, 217, 222);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    width: 600px;
+    border-radius: 5px;
+    border: 1px solid pink;
+}
+
+.answers:hover {
+    background-color: rgb(197, 194, 187);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: left;
+    margin: 10px;
+}
+
+.nbtn {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(78, 225, 78);
+    /* color: white; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .btn:hover {
+    background-color: rgb(191, 88, 51);
+    font-weight: 400;
+    padding: 12px 10px;
+    font-size: 15px;
+} */
+
+#stbtn:hover {
+    background-color: rgb(233, 94, 163);
+    text-decoration: underline;
+    padding: 12px 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#stbtn {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: pink;
+    border: 1px solid pink;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+    cursor: pointer;
+}
+
+span {
+    margin: 10px;
+    text-align: center;
+}
+
+.timer {
+    /* color: red; */
+    font-size: 30px;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 10px;
+    margin: 0;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        font-size: 18px;
+    }
+
+    #htmlMain {
+        padding: 10px;
+    }
+
+    .answers {
+        width: 80%;
+        font-size: 15px;
+    }
+}
